@@ -228,7 +228,7 @@ import pipeline.cf_generation as cf_gen_mod
 import pipeline.dp_causal_analysis as dpc_mod
 import pipeline.dashboard as dashboard_mod
 import pipeline.research_dashboard as research_dashboard_mod
-import pipeline.paper_export as paper_mod
+import pipeline.export as paper_mod
 import pipeline.kusner_baselines as kusner_mod
 from pipeline.data_preparation import augment_data
 
