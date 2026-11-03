@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+xgboost
+fairlearn
+statsmodels
+matplotlib
+openpyxl        
+NICEx           
+synth-mia       

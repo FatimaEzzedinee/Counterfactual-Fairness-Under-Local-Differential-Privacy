@@ -49,7 +49,7 @@ def apply_ldp(data, epsilon=LDP_EPSILON, verbose=True):
         print(f"      {GROUP_UNPRIV_LABEL} fraction: {orig.mean()*100:.1f}% -> {perturbed.mean()*100:.1f}%")
 
 
-    # TO CHECK - FATIMA
+    
     X_aug_ldp = np.vstack([X_train_ldp, data.X_cf_race])
     y_aug_ldp = np.concatenate([data.y_train, data.y_cf_race])
 
